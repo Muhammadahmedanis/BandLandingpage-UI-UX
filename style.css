@@ -1,9 +1,145 @@
+.navbar{
+    background-color: #c9e1f480;
+}
 .navbar-nav{
     font-size: 18px !important;
     font-weight: 550;
+    gap: 23px;
 }
 .navbar-brand{
     color: #02D3FF;
-    font-size: 21px;
-    font-weight: 600;
+    font-size: 22px;
+    font-weight: 650;
 }
+.btn1{
+    border-color: #02D3FF;
+}
+.btn1:hover{
+    border-color: #02D3FF;
+    background: linear-gradient(#01a8ff, #01c4ff);
+    /* background-color: #008DFF; */
+}
+.navbar-toggler{
+    border-color: #01c4ff;
+}
+
+
+
+#main{
+    /* background-color: rgb(233, 236, 237); */
+    background-color: #F0F0F0;
+    padding: 30px 0px;
+}
+/* SECTION1 */
+
+.sec1{
+    /* display: flex !important; */
+    /* flex-direction: row; */
+    /* justify-content: center; */
+    /* gap: 21px; */
+}
+.div1, .div2{
+    /* border: 2px solid black; */
+    /* height: 350px; */
+    /* width: 100%; */
+}
+.div1{
+    /* width: 350px; */
+    /* height: 350px; */
+    text-align: center;
+    background-image: url("./imgaes/Rectangle\ 1612.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 17px;
+}
+.img1{
+    height: 100%;
+    width: 100%;
+}
+.div2{
+    padding: 30px 20px;
+    /* width: 600px; */
+}
+.nesDiv2{
+    /* border: 2px solid black; */
+    /* width: 450px; */
+}
+.nesDiv2 > h2{
+    font-size: 190%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+.nesDiv2 > p {
+    font-size: 17px;
+    /* width: 90%; */
+    text-align: justify;
+}
+.btns {
+    display: flex;
+    gap: 19px;
+}
+.btn2{
+    background: linear-gradient(#000000, #008DFF);
+    color: white;
+    border: none;
+}
+.btn3{
+    background: #C1D42F;
+    border: none;
+    color: white;
+}
+.text{
+    padding-top: 10px;
+    display: flex;
+    gap: 15px;
+}
+.span{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 29px;
+}
+.text > p {
+    font-size: 14px;
+}
+@media (max-width: 576px) {
+    #main{
+        padding: 0px;
+    }
+    
+}
+
+@media (min-width: 1200px) {
+    .div1{
+        width: 350px;
+    }
+}
+
+
+
+
+
+
+
+
+.sec2{
+    /* padding: 20px 30px; */
+    /* border: 2px solid black; */
+}
+.sec2-text > h3{
+    font-size: 24px;
+    /* font-weight: 600; */
+}
+.sec2-text > p {
+    text-align: justify;
+}
+
+.img2{
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .sec2{
+        padding: 20px 30px;
+    }
+}
+
