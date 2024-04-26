@@ -1,5 +1,5 @@
 .navbar{
-    background-color: #c9e1f480;
+    background-color: #95e2f1;
 }
 .navbar-nav{
     font-size: 18px !important;
@@ -17,7 +17,6 @@
 .btn1:hover{
     border-color: #02D3FF;
     background: linear-gradient(#01a8ff, #01c4ff);
-    /* background-color: #008DFF; */
 }
 .navbar-toggler{
     border-color: #01c4ff;
@@ -26,26 +25,14 @@
 
 
 #main{
-    /* background-color: rgb(233, 236, 237); */
     background-color: #F0F0F0;
     padding: 30px 0px;
+    margin-top: 45px;
 }
 /* SECTION1 */
 
-.sec1{
-    /* display: flex !important; */
-    /* flex-direction: row; */
-    /* justify-content: center; */
-    /* gap: 21px; */
-}
-.div1, .div2{
-    /* border: 2px solid black; */
-    /* height: 350px; */
-    /* width: 100%; */
-}
+
 .div1{
-    /* width: 350px; */
-    /* height: 350px; */
     text-align: center;
     background-image: url("./imgaes/Rectangle\ 1612.png");
     background-repeat: no-repeat;
@@ -59,11 +46,6 @@
 }
 .div2{
     padding: 30px 20px;
-    /* width: 600px; */
-}
-.nesDiv2{
-    /* border: 2px solid black; */
-    /* width: 450px; */
 }
 .nesDiv2 > h2{
     font-size: 190%;
@@ -72,7 +54,6 @@
 }
 .nesDiv2 > p {
     font-size: 17px;
-    /* width: 90%; */
     text-align: justify;
 }
 .btns {
@@ -118,16 +99,8 @@
 
 
 
-
-
-
-.sec2{
-    /* padding: 20px 30px; */
-    /* border: 2px solid black; */
-}
 .sec2-text > h3{
     font-size: 24px;
-    /* font-weight: 600; */
 }
 .sec2-text > p {
     text-align: justify;
@@ -143,3 +116,76 @@
     }
 }
 
+.sec3{
+    margin-top: 35px;
+    padding: 35px 10px;
+    width: 100%;
+    border-radius: 20px;
+    background:linear-gradient(#02d5ff6b, #BEE9FC) ;
+}
+.sec3 > h3, .sec3 > p{
+    text-align: center;
+}
+.sec3 > p{
+    text-align: center;
+    width: 70%;
+    margin: auto;
+}
+
+.sec4{
+    margin-top: 25px;
+}
+.sec4-div > div{
+    padding: 10px;
+}
+.sec4-img{
+    height: 300px;
+    width: 100%;
+}
+.sec-h4{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+@media (max-width: 776px) {
+    .btn-Flex{
+        display: flow;
+    }
+    .sec-h4{
+        text-align: center;
+    }
+    .sec-para{
+        text-align: center;
+    }
+}
+.sec4-div2{
+    margin-top: 20px;
+}
+.img3{
+    height: 90px;
+    text-align: center;
+}
+
+
+.cards > div{
+    padding: 10px;
+    border-radius: 17px;
+    background-color: white;
+}
+.cards{
+    margin: auto;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+.img4{
+    height: 110px;
+}
+.img5{
+    height: 23px;
+    text-align: right;
+}
+.img6{
+    height: 450px;
+}
+.foot{
+    background-color: #7fd0e0 !important;
+}
