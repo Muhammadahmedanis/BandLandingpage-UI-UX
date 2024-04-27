@@ -45,15 +45,14 @@
             <a class="nav-link" href="#">Contact</a>
           </li>
         </ul>
-        <form class="d-flex pe-4" role="search">
-          <button class="btn btn2 btn-outline-dark px-4 py-2" type="submit">Sign Up</button>
-        </form>
+        <div class="d-flex pe-4" >
+          <button onclick="signUp()" class="btn btn2 btn-outline-dark px-4 py-2">Sign Up</button>
+        </div>
       </div>
     </div>
   </nav>
 
   <section id="main">
-
 
     <section class="sec1 container">
       <div class="d-flex row">
@@ -248,8 +247,7 @@
   </section>
 
 
-  <!-- Footer -->
-  <footer class="text-center text-lg-start bg-body-tertiary text-muted foot">
+    <footer class="text-center text-lg-start bg-body-tertiary text-muted foot">
     <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
       <div class="me-5 d-none d-lg-block">
         <span>Get connected with us on social networks:</span>
@@ -270,11 +268,8 @@
 
     <section class="">
       <div class="container text-center text-md-start mt-5">
-        <!-- Grid row -->
         <div class="row mt-3">
-          <!-- Grid column -->
           <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-            <!-- Content -->
             <h6 class="text-uppercase fw-bold mb-4 navbar-brand">
               <img src="./imgaes/Group 1.png " alt="">VITRUZA
             </h6>
@@ -335,9 +330,21 @@
       © 2021 Copyright:
       <a class="text-reset fw-bold" href="https://mdbootstrap.com/">Vitruza.com</a>
     </div>
-  </footer>
-  <!-- Footer -->
+  </footer> 
 
+
+  <!-- sign up form -->
+  <div style="display: none;" class="sign">
+    <h4 class="fw-bold ps-2">Sign Up</h4>
+    <p class="ps-2">Please fill this form to create an account</p>
+    <hr class="line">
+    <input id="fName" type="text" name="fName" placeholder="First Name" required>
+    <input id="lName" type="text" name="lName" placeholder="Last Name" required>
+    <input id="email" type="text" placeholder="Email Address" class="passward" required>
+    <input id="passward" type="text" placeholder="Passward" class="passward" required>
+    <input id="conPassward" type="text" placeholder="Confirm Passward" class="passward" required>
+    <button onclick="sub()" class="btn-form">Sign Up</button>
+  </div>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   <script src="app.js"></script>

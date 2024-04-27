@@ -189,3 +189,38 @@
 .foot{
     background-color: #7fd0e0 !important;
 }
+
+
+
+.sign{
+    background-image: url("./imgaes/bg2.jpeg");
+    /* border: 2px solid black; */
+    height: 450px;
+    width: 420px;
+    margin: 50px auto;
+}
+.sign > h4{
+    font-size: 35px;
+}
+input{
+    border: none;
+    outline: none;
+    padding: 8px 0;
+    padding-left: 9px;
+    margin-left: 9px;
+    background: #f4f2f2;
+    margin: 10px 5px;
+}
+.passward{
+    width: 94%;
+}
+.btn-form{
+    padding: 5px 55px;
+    background: #01a8ff;
+    color: white;
+    font-size: 21px;
+    font-weight: 600;
+    margin-left: 91px;
+    border: none;
+    cursor: pointer;
+}

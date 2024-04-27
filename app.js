@@ -10,3 +10,28 @@ function cli() {
         btn.innerHTML = "See More";
     }
 }
+
+
+var lName = document.querySelector("#lName");
+var email = document.querySelector("#email");
+var passward = document.querySelector("#passward");
+var conPassward = document.querySelector("#conPassward");
+var fName = document.querySelector("#fName");
+function sub(){
+    if(passward.length != 8) {
+        passward.value  = "Ypour"
+    }
+    console.log(fName.value, lName.value, email.value, passward.value, conPassward.value);
+    fName.value = "";
+    lName.value = "";
+    email.value = "";
+    passward.value = "";
+    conPassward.value = "";
+}
+
+function signUp() {
+    // console.log("a");
+    var a = document.querySelector(".sign")
+    a.style.display = "block";
+}
+
